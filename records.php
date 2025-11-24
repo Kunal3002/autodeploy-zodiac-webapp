@@ -1,7 +1,8 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=autodeploy_db";
-$user = "projectuser";
-$pass = "deploy";
+// --- Database Configuration (safe placeholders for public repo) ---
+$dsn  = "mysql:host=localhost;dbname=YOUR_DB_NAME";
+$user = "YOUR_DB_USER";
+$pass = "YOUR_DB_PASSWORD";
 
 try {
     $pdo = new PDO($dsn, $user, $pass);
@@ -54,4 +55,3 @@ a { text-decoration:none; color:#007bff; }
 
 </body>
 </html>
-
