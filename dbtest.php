@@ -1,9 +1,9 @@
 <?php
 echo "Testing PDO...<br>";
 
-$dsn = "mysql:host=localhost;dbname=autodeploy_db;charset=utf8";
-$user = "projectuser";
-$pass = "deploy";
+$dsn  = "mysql:host=localhost;dbname=YOUR_DB_NAME;charset=utf8";
+$user = "YOUR_DB_USER";
+$pass = "YOUR_DB_PASSWORD";
 
 try {
     $pdo = new PDO($dsn, $user, $pass);
@@ -11,3 +11,4 @@ try {
 } catch (PDOException $e) {
     echo "PDO Error: " . $e->getMessage();
 }
+?>
