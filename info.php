@@ -91,9 +91,9 @@ list($signKey, $signLabel) = getZodiacSign($day, $month);
 $message = getDailyMessage($signKey);
 
 
-$dsn  = "mysql:host=localhost;dbname=autodeploy_db;charset=utf8";
-$user = "projectuser";
-$pass = "deploy";
+$dsn  = "mysql:host=localhost;dbname=YOUR_DB_NAME;charset=utf8";
+$user = "YOUR_DB_USER";
+$pass = "YOUR_DB_PASSWORD";
 
 $dbError = "";
 
