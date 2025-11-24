@@ -62,7 +62,7 @@ README.md	    Documentation
 
 Admin records:
 
-http://server-ip/records.php?key=YOUR_ADMIN_KEY
+http://server-ip/records.php?key=ChangeMe123 
 
 🔐 Security Notes
 
